@@ -1,0 +1,37 @@
+/* ReviewSwiper.css */
+.review-swiper {
+    margin: 20px;
+  }
+  
+  .review {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 15px; /* Add border-radius for curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-right: 10px; /* Add margin for spacing between reviews */
+  }
+  
+  .review:last-child {
+    margin-right: 0; /* Remove margin from the last review to avoid extra spacing */
+  }
+  
+  .avatar {
+    width: 2cm; /* Set the width to 2cm */
+    height: 2cm; /* Set the height to 2cm */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .review h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #666;
+  }
+  
