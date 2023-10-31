@@ -1,0 +1,83 @@
+.tap {
+  display: flex;
+  flex-wrap: wrap; /* Added to wrap cards to the next line on small screens */
+  justify-content: space-between;
+  margin: 80px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 0px;
+  text-align: center;
+  width: 320px;
+  margin-bottom: 20px; /* Added to provide some spacing between cards */
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  max-height: 50vh; /* Changed to max-height to make it responsive */
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 0px 0;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center; /* Center cards on small screens */
+  }
+
+  .card {
+    width: 100%; /* Cards take up full width on small screens */
+  }
+}
+
+/* Add these styles at the end of your existing CSS */
+
+.star-rating {
+  margin-top: 5px;
+  color: #FFD700; /* Set star color to gold */
+}
+
+.star {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.star.filled {
+  color: #FFD700;
+}
+
+.accountability {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.details-link {
+  display: block;
+  margin-top: 10px;
+  color: #3498db; /* Set link color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.details-link:hover {
+  color: #2980b9; /* Set link color on hover */
+}
+
