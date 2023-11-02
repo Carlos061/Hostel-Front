@@ -1,7 +1,7 @@
 
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-// import Entry from "./components/Entry";
+import Entry from "./components/Entry";
 import Services from "./components/Services";
 import Ratings from "./components/Ratings";
 import MyBookings from "./components/About";
