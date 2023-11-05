@@ -13,6 +13,7 @@ import Gallery from "./components/Gallery";
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Routes>
         <Route path='/' element={<Entry />}/>
         <Route path='/hostels' element={< Hostels />}/>
