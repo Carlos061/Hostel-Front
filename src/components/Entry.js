@@ -10,7 +10,7 @@ import Card from "./Card";
 function Entry() {
   return (
     <div>
-      {/* <Header /> */}
+      
       <section className="hero">
         <div className="content">
           <h1>Welcome to Your Hostel Hub.</h1>
@@ -21,7 +21,6 @@ function Entry() {
           <Link to={"/hostels"}>Explore Hostels</Link>
         </div>
       </section>
-
       <Card />
       <Rate />
     </div>

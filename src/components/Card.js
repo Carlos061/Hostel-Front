@@ -25,6 +25,7 @@ const StarRating = ({ rating }) => {
 
 const App = () => (
  <>
+    <h2 class = "product-category">Recomended Hostels<p></p></h2>
       <div className="tap">
     <Card
       image="https://i.pinimg.com/474x/64/12/10/64121069b5fc37e1fb979f1604ceb675.jpg"

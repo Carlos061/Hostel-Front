@@ -7,6 +7,7 @@ import Ratings from "./components/Ratings";
 import MyBookings from "./components/About";
 import Footer from "./components/Footer";
 import Admin from "./components/Admin";
+import Header from "./components/Header";
 import Hostels from "./components/Hostels";
 import Gallery from "./components/Gallery";
 
