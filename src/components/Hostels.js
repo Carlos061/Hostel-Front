@@ -7,8 +7,6 @@ import { Link } from "react-router-dom";
 function Hostels() {
   return (
     <div>
-        <Header />
-
         <div class = "product">
                 <h2 class = "product-category">Hostels</h2>
                 <div class = "product-container">
