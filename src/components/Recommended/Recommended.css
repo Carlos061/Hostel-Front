@@ -1,0 +1,25 @@
+.recommended-flex {
+  display: flex;
+  margin-left: 20rem;
+}
+
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Recommended.css */
+
+.normalButton {
+  background-color: #ffffff; /* Default background color for the button */
+  color: #000000; /* Default text color */
+  /* Add any other styles for the normal state */
+}
+
+.clickedButton {
+  background-color: #808080; /* Grey background color for the clicked button */
+  color: #ffffff; /* White text color for the clicked button */
+  /* Add any other styles for the clicked state */
+}

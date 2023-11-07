@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import Card from "./components/Card";
 import "./index.css";
 
-function Hostels() {
+function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
@@ -79,4 +79,4 @@ function Hostels() {
   );
 }
 
-export default Hostels;
+export default App;

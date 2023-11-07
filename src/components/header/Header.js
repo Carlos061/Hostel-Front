@@ -7,9 +7,9 @@ function Header() {
       <Link to={'/'}>Home</Link>
       <Link to={'/hostels'}>Hostels</Link>
       <Link to={'/ratings'}>Contact Us</Link>
+      <Link to={'/services'}>Sign In</Link>
       <Link to={'/services'}>Sign Up</Link>
-      <Link to={'/services'}>Sign Up</Link>
-     <hr className ='line'/>
+     {/* <hr className ='line'/> */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../header/Header";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -10,7 +10,7 @@ import Card from "./Card";
 function Entry() {
   return (
     <div>
-      
+      <Header />
       <section className="hero">
         <div className="content">
           <h1>Welcome to Your Hostel Hub.</h1>
